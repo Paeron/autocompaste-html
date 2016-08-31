@@ -35,58 +35,148 @@
                 <div class="col-md-8 col-md-offset-2">
                     <h1>Post-Experiment Questionnaire</h1>
                     <hr>
-                    <p>This part of the interface collects whatever post-experiment information. After the experiment, you want to collect more qualitative and quantitative feedback about the tested techniques. Some of the typical questions include, personal preferences, any difficulties participants experienced in the experiment, and areas of improvement. Please design a basic post-experimental questionnaire (no more than 10 questions).</p>
-
+                    <p> Thank you for participating in this experiment. Before you are finished please answer the following questions.
                     <p>Current participant: <span class="js-pid pid"></span></p>
 
                     <form id="post-expt-form">
                         <div class="form-group">
-                            <label for="q1">Question 1 - Text</label>
-                            <input type="text" class="form-control" id="q1" name="q1" placeholder="Enter answer">
+                            <label for="q1">Question 1 - Did you encounter any difficulties in the experiment? What kind of difficulties? Try to be as detailed as possible, if no problems occured pleease answer no.</label>
+                            <textarea class="form-control" id="q1" name="q1" placeholder="Enter response"></textarea>
                         </div>
                         <div class="form-group">
-                            <label for="q2">Question 2 - Radio</label>
+                            <label for="q2">Question 2 - How can the techniques you have tried be improved?.</label>
+                            <textarea class="form-control" id="q2" name="q2" placeholder="Enter response"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="q3">Question 3 - Which technique do you prefer?</label>
                             <div class="radio">
                               <label>
-                                <input type="radio" name="q2" id="optionsRadios1" value="radio1">
-                                Radio response 1
+                                <input type="radio" name="q3" id="optionsRadios1" value="radio1">
+                                AutoComPaste (ACP)
                               </label>
                             </div>
                             <div class="radio">
                               <label>
-                                <input type="radio" name="q2" id="optionsRadios2" value="radio2">
-                                Radio response 2
+                                <input type="radio" name="q3" id="optionsRadios2" value="radio2">
+                                Normal (Ctrl-C, Ctrl-V)
                               </label>
                             </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="q3">Question 3 - Checkbox</label>
-                            <div class="checkbox">
+                            <div class="radio">
                               <label>
-                                <input type="checkbox" name="q3" value="checkbox1">
-                                Checkbox response 1
+                                <input type="radio" name="q3" id="optionsRadios3" value="radio3">
+                                I have no preference
                               </label>
                             </div>
-                            <div class="checkbox">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="q4">Question 4 - Please grade AutoComPaste (ACP)</label>
+                            <div class="radio">
                               <label>
-                                <input type="checkbox" name="q3" value="checkbox2">
-                                Checkbox response 2
+                                <input type="radio" name="q4" id="optionsRadios1" value="radio1">
+                                1 (Really bad)
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q4" id="optionsRadios2" value="radio2">
+                                2
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q4" id="optionsRadios3" value="radio3">
+                                3
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q4" id="optionsRadios4" value="radio4">
+                                4
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q4" id="optionsRadios5" value="radio5">
+                                5 (Excellent)
+                              </label>
+                            </div>
+                        <div class="form-group">
+                            <label for="q5">Question 5 - Please grade Ctrl-V Ctrl-C</label>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q5" id="optionsRadios1" value="radio1">
+                                1 (Really bad)
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q5" id="optionsRadios2" value="radio2">
+                                2
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q5" id="optionsRadios3" value="radio3">
+                                3
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q5" id="optionsRadios4" value="radio4">
+                                4
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q5" id="optionsRadios5" value="radio5">
+                                5 (Excellent)
                               </label>
                             </div>
                         </div>
+
                         <div class="form-group">
-                            <label for="q4">Question 4 - Select Options</label>
-                            <select class="form-control" name="q4">
-                                <option value="option1">Option response 1</option>
-                                <option value="option2">Option response 2</option>
-                                <option value="option3">Option response 3</option>
-                                <option value="option4">Option response 4</option>
-                                <option value="option1">Option response 5</option>
-                            </select>
+                            <label for="q6">Question 6 - Please choose the statement that most accurately describes your previous experience with these techniques. Read the statements carefully.</label>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q6" id="optionsRadios1" value="radio1">
+                                I have encountered AutoComPaste (ACP) before.
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q6" id="optionsRadios2" value="radio2">
+                                I have encountered a similar technique to AutoComPaste (ACP) before.
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q6" id="optionsRadios3" value="radio3">
+                                I have never encountered AutoComPaste (ACP) before.
+                              </label>
+                            </div>
                         </div>
+
                         <div class="form-group">
-                            <label for="q5">Question 5 - Textarea</label>
-                            <textarea class="form-control" id="q5" name="q5" placeholder="Enter response"></textarea>
+                            <label for="q7">Question 7 - Please choose the statement that most accurately describes your previous experience with these techniques. Read the statements carefully.</label>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q7" id="optionsRadios1" value="radio1">
+                                I have encountered Ctrl-C Ctrl-V before.
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q7" id="optionsRadios2" value="radio2">
+                                I have encountered a similar technique to Ctrl-C Ctrl-V before.
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q7" id="optionsRadios3" value="radio3">
+                                I have never encountered Ctrl-C Ctrl-V before.
+                              </label>
+                            </div>
                         </div>
                         <button type="submit" class="btn btn-primary btn-lg">Submit</button>
                     </form>
