@@ -42,12 +42,50 @@
             "data_file": "data/texts.json",
             "stimuli": "number of positive charges" 
         },   
+
+
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "texttype": "Random",
+            "data_file": "data/texts.json",
+            "stimuli": "aex oH1M5N uehVLsYtIq3 QZIu9M." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "texttype": "Random",
+            "data_file": "data/texts.json",
+            "stimuli": "l3z8L M8V1Is HZ46Nv ZXCMGw m8Xk3Zw aKZo2t. LRfK8ix e91iPx AjBXaWd 0dk6h 7lOd3G7." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "texttype": "Random",
+            "data_file": "data/texts.json",
+            "stimuli": "j7zvhN tOKnTYZN9 OCAS" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "texttype": "Random",
+            "data_file": "data/texts.json",
+            "stimuli": "aex oH1M5N uehVLsYtIq3 QZIu9M." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "texttype": "Random",
+            "data_file": "data/texts.json",
+            "stimuli": "l3z8L M8V1Is HZ46Nv ZXCMGw m8Xk3Zw aKZo2t. LRfK8ix e91iPx AjBXaWd 0dk6h 7lOd3G7." 
+        },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "texttype": "Random",
             "data_file": "data/texts.json",
-            "stimuli": "GLg 8A8KN Xgrx2CJ9Aq" 
-        }
+            "stimuli": "j7zvhN tOKnTYZN9 OCAS" 
+        },  
+
     ]
 }
