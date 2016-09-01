@@ -5,42 +5,42 @@
             "granularity": "sentence",
             "texttype": "Normal",
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?" 
+            "stimuli": "What is antenna, receiving?" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "texttype": "Normal",
             "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage." 
+            "stimuli": "What is amplifier? A circuit that increases the voltage, current, or power of a signal." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "texttype": "Normal",
             "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
+            "stimuli": "The positive electrode" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
             "texttype": "Normal",
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?" 
+            "stimuli": "WWhat is antenna, receiving?" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "texttype": "Normal",
             "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage." 
+            "stimuli": "What is amplifier? A circuit that increases the voltage, current, or power of a signal." 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "texttype": "Normal",
             "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
+            "stimuli": "The positive electrode" 
         },   
         { 
             "technique": "AUTOCOMPASTE", 
