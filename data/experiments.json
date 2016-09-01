@@ -3,38 +3,51 @@
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "sentence",
+            "texttype": "Normal",
             "data_file": "data/texts.json",
             "stimuli": "What is acceptor atoms?" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
+            "texttype": "Normal",
             "data_file": "data/texts.json",
             "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
+            "texttype": "Normal",
             "data_file": "data/texts.json",
             "stimuli": "number of positive charges" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
+            "texttype": "Normal",
             "data_file": "data/texts.json",
             "stimuli": "What is acceptor atoms?" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
+            "texttype": "Normal",
             "data_file": "data/texts.json",
             "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage." 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
+            "texttype": "Normal",
             "data_file": "data/texts.json",
             "stimuli": "number of positive charges" 
-        }        
+        },   
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "texttype": "Random",
+            "data_file": "data/texts.json",
+            "stimuli": "GLg 8A8KN Xgrx2CJ9Aq" 
+        }    
     ]
 }

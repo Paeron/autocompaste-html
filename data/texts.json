@@ -23,4 +23,8 @@
         "title": "Article 6",
         "url": "data/articles/Article_6.txt"
     }
+    {
+        "title": "Random 1",
+        "url": "data/articles/random1.txt"
+    }
 ]
