@@ -42,8 +42,6 @@
             "data_file": "data/texts.json",
             "stimuli": "number of positive charges" 
         },   
-
-
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "sentence",
@@ -85,7 +83,7 @@
             "texttype": "Random",
             "data_file": "data/texts.json",
             "stimuli": "j7zvhN tOKnTYZN9 OCAS" 
-        },  
+        }
 
     ]
 }
