@@ -98,7 +98,7 @@
                     var trialEndTime = trialResult.end_time;
                     var trialDuration = trialResult.duration;
                     var accuracy = stimuli === userResponse ? 1 : 0;
-                    var row = [pid, technique, granularity, trialNum,
+                    var row = [pid, technique, granularity, texttype, trialNum,
                                 stimuli, userResponse, trialStartTime,
                                 trialEndTime, trialDuration, accuracy];
                     trialData.push(row);
