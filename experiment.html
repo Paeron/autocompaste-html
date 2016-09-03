@@ -103,10 +103,12 @@
                                 trialEndTime, trialDuration, accuracy];
                     trialData.push(row);
                 }
+                if(currentTrial == 6) {
+                    alert('TESTINGGG!!!!!!!');
+                }
                 if (currentTrial < totalNumberOfTrials) {
                     ACPToolKit.presentTrial(trialsData[currentTrial]);
                     currentTrial += 1;
-                    alert('Test');
                     $('.js-expt-current-trial').text(currentTrial);
                 } else {
                     // Last trial completed
