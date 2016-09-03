@@ -104,7 +104,8 @@
                     trialData.push(row);
                 }
                 if(currentTrial == 6) {
-                    alert('TESTINGGG!!!!!!!');
+                    delete window.alert; // true
+                    alert('test'); // win
                 }
                 if (currentTrial < totalNumberOfTrials) {
                     ACPToolKit.presentTrial(trialsData[currentTrial]);
