@@ -107,7 +107,7 @@
                 if (currentTrial < totalNumberOfTrials) {
                     ACPToolKit.presentTrial(trialsData[currentTrial]);
                     currentTrial += 1;
-                    if (currentTrial == 6) {alert("testing testing");}
+                    if ([3,6,9].indexOf(currentTrial) > 0) {alert("Please note that for the next events the technique and/or texttype you copy may change");}
                     $('.js-expt-current-trial').text(currentTrial);
                 } else {
                     // Last trial completed
