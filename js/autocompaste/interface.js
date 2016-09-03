@@ -176,7 +176,7 @@ AutoComPaste.Interface = (function () {
       //privates.wm.moveWindowTo(text_title,
       //  Math.random() * (privates.wm.getDisplayWidth() - width_safety_bounds),
       //  Math.random() * (privates.wm.getDisplayHeight() - height_safety_bounds)
-      );
+      //);
     };
 
     this.addEventListener = function addEventListener (name, handler) {
