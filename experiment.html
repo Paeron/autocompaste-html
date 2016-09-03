@@ -105,10 +105,10 @@
                 }
                 if (currentTrial < totalNumberOfTrials) {
                     ACPToolKit.presentTrial(trialsData[currentTrial]);
-                    currentTrial += 1;
-                    if ((currentTrial % 3) == 0) {
+                    if ( (currentTrial % 3) == 0) {
                         alert('Please take a break');
                     }
+                    currentTrial += 1;
                     $('.js-expt-current-trial').text(currentTrial);
                 } else {
                     // Last trial completed
