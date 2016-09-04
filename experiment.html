@@ -124,13 +124,9 @@
                     totalNumberOfTrials = trialsData.length;
                     $('.js-expt-num-trials').text(totalNumberOfTrials);
                     trialData.push(headers);
-                    pid = ACPToolKit.getCurrentParticipantId();
-                })
-            });
-            $(document).ready(function () {
-                $.get('data/order.json', function (data) {
                     order = data.order(ACPToolKit.getCurrentParticipantId());
                     next();
+                    pid = ACPToolKit.getCurrentParticipantId();
                 })
             });
 
