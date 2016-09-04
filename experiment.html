@@ -23,6 +23,7 @@
                         <li><a href="index.html">Welcome</a></li>
                         <li><a href="questionnaire-pre.html">Pre Questionnaire</a></li>
                         <li><a href="instructions.html">Instructions</a></li>
+                        <li><a href="trials.html">Trials</a></li>
                         <li class="active"><a href="experiment.html">Experiment</a></li>
                         <li><a href="questionnaire-post.html">Post Questionnaire</a></li>
                     </ul>
@@ -107,7 +108,7 @@
                 if (currentTrial < totalNumberOfTrials) {
                     ACPToolKit.presentTrial(trialsData[currentTrial]);
                     currentTrial += 1;
-                    if ([3,6,9].indexOf(currentTrial) > -1) {alert("Please note that for the next events the technique and/or texttype you copy may change");}
+                    if ([4,7,10].indexOf(currentTrial) > -1) {alert("Please note that for the next events the technique and/or texttype you copy may change");}
                     $('.js-expt-current-trial').text(currentTrial);
                 } else {
                     // Last trial completed
