@@ -77,6 +77,7 @@
         <script src="js/ACPToolKit.js"></script>
 
         <script>
+
             var trialsData;
             var currentTrial;
             var totalNumberOfTrials;
@@ -85,13 +86,14 @@
                             'Trial End Time', 'Trial Time', 'Accuracy'];
             var trialData = [];
             var pid;
+            var order =[];
             function next () {
                 if (currentTrial !== 0) {
                     var trialResult = ACPToolKit.getCurrentTrialState();
                     var technique = trialResult.technique;
                     var granularity = trialResult.granularity;
                     var texttype = trialResult.texttype;
-                    var trialNum = currentTrial;
+                    var trialNum = order(currentTrial);
                     var stimuli = trialResult.stimuli;
                     var userResponse = trialResult.user_response;
                     var trialStartTime = trialResult.start_time;
@@ -105,10 +107,10 @@
                 }
 
                 if (currentTrial < totalNumberOfTrials) {
-                    ACPToolKit.presentTrial(trialsData[currentTrial]);
+                    ACPToolKit.presentTrial(trialsData[order(currentTrial)]);
                     currentTrial += 1;
                     if ([4,7,10].indexOf(currentTrial) > -1) {alert("Please note that for the next events the technique and/or texttype you copy may change");}
-                    $('.js-expt-current-trial').text(currentTrial);
+                    $('.js-expt-current-trial').text(order(currentTrial);
                 } else {
                     // Last trial completed
                     ACPToolKit.downloadTrialResults(trialData);
@@ -116,7 +118,7 @@
                 }
             }
             $(document).ready(function () {
-                $.get(('data/experiments'+ ACPToolKit.getCurrentParticipantId() + '.json'), function (data) {
+                $.get('data/experiments.json', function (data) {
                     trialsData = data.experiments;
                     currentTrial = 0;
                     totalNumberOfTrials = trialsData.length;
@@ -125,7 +127,12 @@
                     next();
                     pid = ACPToolKit.getCurrentParticipantId();
                 })
+                $.get('data/order.json', function (data) {
+                    order = data.order[pid];
+
+                })
             });
+
         </script>
     </body>
 </html>
