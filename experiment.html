@@ -127,6 +127,8 @@
                     next();
                     pid = ACPToolKit.getCurrentParticipantId();
                 })
+            });
+            $(document).ready(function () {
                 $.get('data/order.json', function (data) {
                     order = data.order[pid];
 
