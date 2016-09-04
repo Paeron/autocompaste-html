@@ -110,7 +110,7 @@
                     ACPToolKit.presentTrial(trialsData[order(currentTrial)]);
                     currentTrial += 1;
                     if ([4,7,10].indexOf(currentTrial) > -1) {alert("Please note that for the next events the technique and/or texttype you copy may change");}
-                    $('.js-expt-current-trial').text(order(currentTrial);
+                    $('.js-expt-current-trial').text(order(currentTrial));
                 } else {
                     // Last trial completed
                     ACPToolKit.downloadTrialResults(trialData);
