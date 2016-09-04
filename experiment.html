@@ -86,7 +86,7 @@
                             'Trial End Time', 'Trial Time', 'Accuracy'];
             var trialData = [];
             var pid;
-            var order =[];
+            var order = [];
             function next () {
                 if (currentTrial !== 0) {
                     var trialResult = ACPToolKit.getCurrentTrialState();
@@ -130,8 +130,7 @@
             });
             $(document).ready(function () {
                 $.get('data/order.json', function (data) {
-                    order = data.order[pid];
-
+                    order = data.order(ACPToolKit.getCurrentParticipantId());
                 })
             });
 
