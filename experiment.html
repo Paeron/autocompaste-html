@@ -119,12 +119,12 @@
             }
             $(document).ready(function () {
                 $.get('data/experiments.json', function (data) {
-                    trialsData = data.experiments;
+                    trialsData = data.items.experiments;
                     currentTrial = 0;
                     totalNumberOfTrials = trialsData.length;
                     $('.js-expt-num-trials').text(totalNumberOfTrials);
                     trialData.push(headers);
-                    order = data.order(ACPToolKit.getCurrentParticipantId());
+                    order = data.items.order(ACPToolKit.getCurrentParticipantId());
                     next();
                     pid = ACPToolKit.getCurrentParticipantId();
                 })
