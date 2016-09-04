@@ -116,7 +116,7 @@
                 }
             }
             $(document).ready(function () {
-                $.get('data/experiments'+ ACPToolKit.getCurrentParticipantId() + '.json', function (data) {
+                $.get(('data/experiments'+ ACPToolKit.getCurrentParticipantId() + '.json'), function (data) {
                     trialsData = data.experiments;
                     currentTrial = 0;
                     totalNumberOfTrials = trialsData.length;
