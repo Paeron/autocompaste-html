@@ -87,7 +87,6 @@
             var pid;
             function next () {
                 if (currentTrial !== 0) {
-                    var location = 'data/experiments'+ ACPToolKit.getCurrentParticipantId() + '.json';
                     var trialResult = ACPToolKit.getCurrentTrialState();
                     var technique = trialResult.technique;
                     var granularity = trialResult.granularity;
@@ -117,7 +116,7 @@
                 }
             }
             $(document).ready(function () {
-                $.get(location, function (data) {
+                $.get('data/experiments'+ ACPToolKit.getCurrentParticipantId() + '.json', function (data) {
                     trialsData = data.experiments;
                     currentTrial = 0;
                     totalNumberOfTrials = trialsData.length;
