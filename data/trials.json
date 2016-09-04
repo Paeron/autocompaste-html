@@ -1,0 +1,18 @@
+{
+    "experiments": [
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "texttype": "Normal",
+            "data_file": "data/texts.json",
+            "stimuli": "The positive electrode" 
+        },   
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "texttype": "Normal",
+            "data_file": "data/texts.json",
+            "stimuli": "What is antenna, receiving?", 
+        }
+	]
+}
