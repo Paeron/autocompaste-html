@@ -93,7 +93,7 @@
                     var technique = trialResult.technique;
                     var granularity = trialResult.granularity;
                     var texttype = trialResult.texttype;
-                    var trialNum = order(currentTrial);
+                    var trialNum = currentTrial;
                     var stimuli = trialResult.stimuli;
                     var userResponse = trialResult.user_response;
                     var trialStartTime = trialResult.start_time;
@@ -107,7 +107,7 @@
                 }
 
                 if (currentTrial < totalNumberOfTrials) {
-                    ACPToolKit.presentTrial(trialsData[order(currentTrial)]);
+                    ACPToolKit.presentTrial(trialsData[currentTrial]);
                     currentTrial += 1;
                     if ([4,7,10].indexOf(currentTrial) > -1) {alert("Please note that for the next events the technique and/or texttype you copy may change");}
                     $('.js-expt-current-trial').text(currentTrial);
@@ -119,12 +119,11 @@
             }
             $(document).ready(function () {
                 $.get('data/experiments.json', function (data) {
-                    trialsData = data.items.experiments;
+                    trialsData = data.experiments;
                     currentTrial = 0;
                     totalNumberOfTrials = trialsData.length;
                     $('.js-expt-num-trials').text(totalNumberOfTrials);
                     trialData.push(headers);
-                    order = data.items.order(ACPToolKit.getCurrentParticipantId());
                     next();
                     pid = ACPToolKit.getCurrentParticipantId();
                 })
