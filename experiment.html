@@ -113,7 +113,7 @@
                     currentTrial += 1;
                     if (currentTrial == 3) {alert("Now you have tried the 2 different techniques, now its time for you to try them for real. Good Luck! :)")}
                     if ([6,9,12].indexOf(currentTrial) > -1) {alert("Please note that for the next events the technique and/or texttype you copy may change");}
-                    $('.js-expt-current-trial').text(order[currentTrial]);
+                    $('.js-expt-current-trial').text(order[currentTrial - 1]);
                 } else {
                     // Last trial completed
                     ACPToolKit.downloadTrialResults(trialData);
