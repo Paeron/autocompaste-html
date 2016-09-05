@@ -128,7 +128,7 @@
                     $('.js-expt-num-trials').text(totalNumberOfTrials);
                     trialData.push(headers);
                     pid = ACPToolKit.getCurrentParticipantId();
-                    order = allOrders[pid-1];
+                    order = allOrders[Number(pid)-1];
                     next();
                 })
             });
