@@ -86,6 +86,8 @@
                             'Trial End Time', 'Trial Time', 'Accuracy'];
             var trialData = [];
             var pid;
+
+            var allOrders = [[1,2,3,4,5,6,7,8,9,10,11,12,13,14],[14,2,3,4,5,6,7,8,9,10,11,12,13,1]];
             var order = [];
             function next () {
                 if (currentTrial !== 0) {
@@ -109,8 +111,9 @@
                 if (currentTrial < totalNumberOfTrials) {
                     ACPToolKit.presentTrial(trialsData[currentTrial]);
                     currentTrial += 1;
-                    if ([4,7,10].indexOf(currentTrial) > -1) {alert("Please note that for the next events the technique and/or texttype you copy may change");}
-                    $('.js-expt-current-trial').text(currentTrial);
+                    if (currentTrial == 3) {alert("Now you have tried the 2 different techniques, now its time for you to try them for real. Good Luck! :)")}
+                    if ([6,9,12].indexOf(currentTrial) > -1) {alert("Please note that for the next events the technique and/or texttype you copy may change");}
+                    $('.js-expt-current-trial').text(order[currentTrial]);
                 } else {
                     // Last trial completed
                     ACPToolKit.downloadTrialResults(trialData);
@@ -124,8 +127,9 @@
                     totalNumberOfTrials = trialsData.length;
                     $('.js-expt-num-trials').text(totalNumberOfTrials);
                     trialData.push(headers);
-                    next();
                     pid = ACPToolKit.getCurrentParticipantId();
+                    order = allOrders[pid];
+                    next();
                 })
             });
 
