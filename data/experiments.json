@@ -77,7 +77,7 @@
          "granularity":"sentence",
          "texttype":"Normal",
          "data_file":"data/texts.json",
-         "stimuli":"WWhat is antenna, receiving?"
+         "stimuli":"What is antenna, receiving?"
       },
       {
          "technique":"TRADITIONAL",
