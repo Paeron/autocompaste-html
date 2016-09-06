@@ -55,10 +55,9 @@
                             </tr>
                         </tbody>
                     </table>
-                    <p>Please copy-paste the following <span class="js-expt-granularity">phrase</span> using the <span class="js-expt-technique">AUTOCOMPASTE</span> technique from one of the open windows.</p>
+                    <p>Please copy-paste the following <span class="js-expt-granularity">phrase</span> using the <span id="test" class="js-expt-technique">AUTOCOMPASTE</span> technique from one of the open windows.</p>
                     <div id="stimuli" class="alert alert-danger js-expt-stimuli">This is a long stimuli!</div>
                     <button class="btn btn-primary btn-lg" onclick="next()">Next Task</button>
-                    <p id="empty">    </p>
                 </div>
                 <div id="autocompaste" class="col-sm-9">
                     <div id="autocompaste-display"></div>
@@ -110,12 +109,13 @@
                                 stimuli, userResponse, trialStartTime,
                                 trialEndTime, trialDuration, accuracy];
                     trialData.push(row);
-                    var input  = document.getElementById("empty");
+                    var input  = document.getElementById("test");
                 }
 
                 if (currentTrial < totalNumberOfTrials) {
                     ACPToolKit.presentTrial(trialsData[Number(order[currentTrial])-1]);
                     currentTrial += 1;
+                    input  = document.getElementById("test");
                     input.select();
                     document.execCommand("Copy");
                     if (currentTrial == 3) {alert("Now you have tried the 2 different techniques, now its time for you to try them for real. Good Luck! :)")}
