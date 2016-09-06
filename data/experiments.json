@@ -13,27 +13,28 @@
          "texttype":"TESTTRIAL",
          "data_file":"data/texts.json",
          "stimuli":"What is antenna, receiving?"
-      },
-      {
-         "technique":"AUTOCOMPASTE",
-         "granularity":"sentence",
-         "texttype":"Normal",
-         "data_file":"data/texts.json",
-         "stimuli":"What is antenna, receiving?"
-      },
-      {
-         "technique":"AUTOCOMPASTE",
-         "granularity":"paragraph",
-         "texttype":"Normal",
-         "data_file":"data/texts.json",
-         "stimuli":"What is amplifier? A circuit that increases the voltage, current, or power of a signal."
-      },
+      },     
+
       {
          "technique":"AUTOCOMPASTE",
          "granularity":"phrase",
          "texttype":"Normal",
          "data_file":"data/texts.json",
          "stimuli":"The positive electrode"
+      },
+      {
+         "technique":"AUTOCOMPASTE",
+         "granularity":"phrase",
+         "texttype":"Random",
+         "data_file":"data/texts.json",
+         "stimuli":"j7zvhN tOKnTYZN9 OCAS"
+      },      
+      {
+         "technique":"AUTOCOMPASTE",
+         "granularity":"sentence",
+         "texttype":"Normal",
+         "data_file":"data/texts.json",
+         "stimuli":"What is antenna, receiving?"
       },
       {
          "technique":"AUTOCOMPASTE",
@@ -45,12 +46,27 @@
       {
          "technique":"AUTOCOMPASTE",
          "granularity":"paragraph",
+         "texttype":"Normal",
+         "data_file":"data/texts.json",
+         "stimuli":"What is amplifier? A circuit that increases the voltage, current, or power of a signal."
+      },
+      {
+         "technique":"AUTOCOMPASTE",
+         "granularity":"paragraph",
          "texttype":"Random",
          "data_file":"data/texts.json",
          "stimuli":"l3z8L M8V1Is HZ46Nv ZXCMGw m8Xk3Zw aKZo2t. LRfK8ix e91iPx AjBXaWd 0dk6h 7lOd3G7."
       },
+
       {
-         "technique":"AUTOCOMPASTE",
+         "technique":"TRADITIONAL",
+         "granularity":"phrase",
+         "texttype":"Normal",
+         "data_file":"data/texts.json",
+         "stimuli":"The positive electrode"
+      },
+      {
+         "technique":"TRADITIONAL",
          "granularity":"phrase",
          "texttype":"Random",
          "data_file":"data/texts.json",
@@ -65,20 +81,6 @@
       },
       {
          "technique":"TRADITIONAL",
-         "granularity":"paragraph",
-         "texttype":"Normal",
-         "data_file":"data/texts.json",
-         "stimuli":"What is amplifier? A circuit that increases the voltage, current, or power of a signal."
-      },
-      {
-         "technique":"TRADITIONAL",
-         "granularity":"phrase",
-         "texttype":"Normal",
-         "data_file":"data/texts.json",
-         "stimuli":"The positive electrode"
-      },
-      {
-         "technique":"TRADITIONAL",
          "granularity":"sentence",
          "texttype":"Random",
          "data_file":"data/texts.json",
@@ -87,16 +89,16 @@
       {
          "technique":"TRADITIONAL",
          "granularity":"paragraph",
-         "texttype":"Random",
+         "texttype":"Normal",
          "data_file":"data/texts.json",
-         "stimuli":"l3z8L M8V1Is HZ46Nv ZXCMGw m8Xk3Zw aKZo2t. LRfK8ix e91iPx AjBXaWd 0dk6h 7lOd3G7."
+         "stimuli":"What is amplifier? A circuit that increases the voltage, current, or power of a signal."
       },
       {
          "technique":"TRADITIONAL",
-         "granularity":"phrase",
+         "granularity":"paragraph",
          "texttype":"Random",
          "data_file":"data/texts.json",
-         "stimuli":"j7zvhN tOKnTYZN9 OCAS"
+         "stimuli":"l3z8L M8V1Is HZ46Nv ZXCMGw m8Xk3Zw aKZo2t. LRfK8ix e91iPx AjBXaWd 0dk6h 7lOd3G7."
       },
       {
          "technique":"TAKE",
