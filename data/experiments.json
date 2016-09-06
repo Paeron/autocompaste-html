@@ -97,6 +97,13 @@
          "texttype":"Random",
          "data_file":"data/texts.json",
          "stimuli":"j7zvhN tOKnTYZN9 OCAS"
+      },
+      {
+         "technique":"TAKE",
+         "granularity":"A 2 MIN",
+         "texttype":"BREAK",
+         "data_file":"data/texts.json",
+         "stimuli":"THEN PRESS NEXT TO CONTINUE"
       }
    ]
 }
