@@ -25,10 +25,40 @@
       {
          "technique":"AUTOCOMPASTE",
          "granularity":"phrase",
+         "texttype":"Normal",
+         "data_file":"data/texts.json",
+         "stimuli":"from output to input"
+      },
+      {
+         "technique":"AUTOCOMPASTE",
+         "granularity":"phrase",
+         "texttype":"Normal",
+         "data_file":"data/texts.json",
+         "stimuli":"rotating or moving component"
+      },
+
+      {
+         "technique":"AUTOCOMPASTE",
+         "granularity":"phrase",
          "texttype":"Random",
          "data_file":"data/texts.json",
          "stimuli":"j7zvhN tOKnTYZN9 OCAS"
-      },      
+      },
+      {
+         "technique":"AUTOCOMPASTE",
+         "granularity":"phrase",
+         "texttype":"Random",
+         "data_file":"data/texts.json",
+         "stimuli":"l3z8L M8V1Is HZ46Nv ZXCMGw"
+      },   
+      {
+         "technique":"AUTOCOMPASTE",
+         "granularity":"phrase",
+         "texttype":"Random",
+         "data_file":"data/texts.json",
+         "stimuli":"j3G1uG GzA QQ3oi0AWI"
+      },   
+
       {
          "technique":"AUTOCOMPASTE",
          "granularity":"sentence",
@@ -39,10 +69,40 @@
       {
          "technique":"AUTOCOMPASTE",
          "granularity":"sentence",
+         "texttype":"Normal",
+         "data_file":"data/texts.json",
+         "stimuli":"Unit of electrical current."
+      },
+      {
+         "technique":"AUTOCOMPASTE",
+         "granularity":"sentence",
+         "texttype":"Normal",
+         "data_file":"data/texts.json",
+         "stimuli":"What is armstrong oscillator?"
+      },
+
+      {
+         "technique":"AUTOCOMPASTE",
+         "granularity":"sentence",
          "texttype":"Random",
          "data_file":"data/texts.json",
          "stimuli":"aex oH1M5N uehVLsYtIq3 QZIu9M."
       },
+      {
+         "technique":"AUTOCOMPASTE",
+         "granularity":"sentence",
+         "texttype":"Random",
+         "data_file":"data/texts.json",
+         "stimuli":"39L7uUN IgM5r onpEML Xi4ugD."
+      },
+      {
+         "technique":"AUTOCOMPASTE",
+         "granularity":"sentence",
+         "texttype":"Random",
+         "data_file":"data/texts.json",
+         "stimuli":"LRfK8ix e91iPx AjBXaWd 0dk6h 7lOd3G7."
+      },
+
       {
          "technique":"AUTOCOMPASTE",
          "granularity":"paragraph",
@@ -53,9 +113,38 @@
       {
          "technique":"AUTOCOMPASTE",
          "granularity":"paragraph",
+         "texttype":"Normal",
+         "data_file":"data/texts.json",
+         "stimuli":"What is armature? The rotating or moving component of a magnetic circuit."
+      },
+      {
+         "technique":"AUTOCOMPASTE",
+         "granularity":"paragraph",
+         "texttype":"Normal",
+         "data_file":"data/texts.json",
+         "stimuli":"What is anode? The positive electrode or terminal of a device. The'P' material of a diode."
+      },
+
+      {
+         "technique":"AUTOCOMPASTE",
+         "granularity":"paragraph",
          "texttype":"Random",
          "data_file":"data/texts.json",
          "stimuli":"l3z8L M8V1Is HZ46Nv ZXCMGw m8Xk3Zw aKZo2t. LRfK8ix e91iPx AjBXaWd 0dk6h 7lOd3G7."
+      },
+      {
+         "technique":"AUTOCOMPASTE",
+         "granularity":"paragraph",
+         "texttype":"Random",
+         "data_file":"data/texts.json",
+         "stimuli":"j7zvhN tOKnTYZN9 OCAS jhV386 ajSYZAaz 2i0AUNZf 2NhFo 8enPS. RPoe9 ZBobrFM MOAYaiF 7igu."
+      },
+      {
+         "technique":"AUTOCOMPASTE",
+         "granularity":"paragraph",
+         "texttype":"Random",
+         "data_file":"data/texts.json",
+         "stimuli":"Fv8ZY BwZVlY CuxD1T b5qS. 2XnwHuQOw rFPoyh j3G1uG GzA QQ3oi0AWI CKECc1 rXTdNpsBQX."
       },
 
       {
@@ -68,10 +157,39 @@
       {
          "technique":"TRADITIONAL",
          "granularity":"phrase",
+         "texttype":"Normal",
+         "data_file":"data/texts.json",
+         "stimuli":"from output to input"
+      },      {
+         "technique":"TRADITIONAL",
+         "granularity":"phrase",
+         "texttype":"Normal",
+         "data_file":"data/texts.json",
+         "stimuli":"rotating or moving component"
+      },
+
+      {
+         "technique":"TRADITIONAL",
+         "granularity":"phrase",
          "texttype":"Random",
          "data_file":"data/texts.json",
          "stimuli":"j7zvhN tOKnTYZN9 OCAS"
       },
+      {
+         "technique":"TRADITIONAL",
+         "granularity":"phrase",
+         "texttype":"Random",
+         "data_file":"data/texts.json",
+         "stimuli":"l3z8L M8V1Is HZ46Nv ZXCMGw"
+      },
+      {
+         "technique":"TRADITIONAL",
+         "granularity":"phrase",
+         "texttype":"Random",
+         "data_file":"data/texts.json",
+         "stimuli":"j3G1uG GzA QQ3oi0AWI"
+      },
+
       {
          "technique":"TRADITIONAL",
          "granularity":"sentence",
@@ -82,10 +200,40 @@
       {
          "technique":"TRADITIONAL",
          "granularity":"sentence",
+         "texttype":"Normal",
+         "data_file":"data/texts.json",
+         "stimuli":"Unit of electrical current."
+      },
+      {
+         "technique":"TRADITIONAL",
+         "granularity":"sentence",
+         "texttype":"Normal",
+         "data_file":"data/texts.json",
+         "stimuli":"What is armstrong oscillator?"
+      },
+
+      {
+         "technique":"TRADITIONAL",
+         "granularity":"sentence",
          "texttype":"Random",
          "data_file":"data/texts.json",
          "stimuli":"aex oH1M5N uehVLsYtIq3 QZIu9M."
       },
+      {
+         "technique":"TRADITIONAL",
+         "granularity":"sentence",
+         "texttype":"Random",
+         "data_file":"data/texts.json",
+         "stimuli":"39L7uUN IgM5r onpEML Xi4ugD."
+      },
+      {
+         "technique":"TRADITIONAL",
+         "granularity":"sentence",
+         "texttype":"Random",
+         "data_file":"data/texts.json",
+         "stimuli":"LRfK8ix e91iPx AjBXaWd 0dk6h 7lOd3G7."
+      },
+
       {
          "technique":"TRADITIONAL",
          "granularity":"paragraph",
@@ -96,16 +244,46 @@
       {
          "technique":"TRADITIONAL",
          "granularity":"paragraph",
+         "texttype":"Normal",
+         "data_file":"data/texts.json",
+         "stimuli":"What is armature? The rotating or moving component of a magnetic circuit."
+      },
+            {
+         "technique":"TRADITIONAL",
+         "granularity":"paragraph",
+         "texttype":"Normal",
+         "data_file":"data/texts.json",
+         "stimuli":"What is anode? The positive electrode or terminal of a device. The'P' material of a diode."
+      },
+
+      {
+         "technique":"TRADITIONAL",
+         "granularity":"paragraph",
          "texttype":"Random",
          "data_file":"data/texts.json",
          "stimuli":"l3z8L M8V1Is HZ46Nv ZXCMGw m8Xk3Zw aKZo2t. LRfK8ix e91iPx AjBXaWd 0dk6h 7lOd3G7."
       },
       {
-         "technique":"TAKE",
-         "granularity":"A 2 MIN",
-         "texttype":"BREAK",
+         "technique":"TRADITIONAL",
+         "granularity":"paragraph",
+         "texttype":"Random",
          "data_file":"data/texts.json",
-         "stimuli":"THEN PRESS NEXT TO CONTINUE"
+         "stimuli":"j7zvhN tOKnTYZN9 OCAS jhV386 ajSYZAaz 2i0AUNZf 2NhFo 8enPS. RPoe9 ZBobrFM MOAYaiF 7igu."
+      },
+      {
+         "technique":"TRADITIONAL",
+         "granularity":"paragraph",
+         "texttype":"Random",
+         "data_file":"data/texts.json",
+         "stimuli":"Fv8ZY BwZVlY CuxD1T b5qS. 2XnwHuQOw rFPoyh j3G1uG GzA QQ3oi0AWI CKECc1 rXTdNpsBQX."
+      },      
+
+      {
+         "technique":"TAKE A",
+         "granularity":"1 MIN BREAK",
+         "texttype":"THEN PRESS",
+         "data_file":"data/texts.json",
+         "stimuli":"NEXT TASK TO CONTINUE"
       }
    ]
 }
