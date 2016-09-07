@@ -117,7 +117,6 @@
                     ACPToolKit.presentTrial(trialsData[Number(order[currentTrial])-1]);
                     currentTrial += 1;
                     if (currentTrial == 3) {alert("Now you have tried the 2 different techniques, now its time for you to try them for real. Good Luck! :)");}
-                    //if ([6,9,12].indexOf(currentTrial) > -1) {alert("Please note that for the next events the technique and/or texttype you copy may change");}
                     $('.js-expt-current-trial').text(currentTrial);
                 } else {
                     // Last trial completed
@@ -129,7 +128,6 @@
                 $.get('data/experiments.json', function (data) {
                     trialsData = data.experiments;
                     currentTrial = 0;
-                    //totalNumberOfTrials = trialsData.length;
                     totalNumberOfTrials = allOrders[0].length;
                     $('.js-expt-num-trials').text(totalNumberOfTrials);
                     trialData.push(headers);
