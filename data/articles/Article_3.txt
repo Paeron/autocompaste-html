@@ -6,7 +6,7 @@ What is amplitude? Magnitude or size of a signal voltage or current.
 
 What is analog? Information represented as continuously varying voltage or current rather than in discrete levels as opposed to digital data varying between two discrete levels.
 
-What is anode? The positive electrode or terminal of a device. The "P" material of a diode.
+What is anode? The positive electrode or terminal of a device. The 'P' material of a diode.
 
 What is antenna, receiving? A device that converts a radiated electromagnetic wave into an electrical wave.
 
