@@ -279,11 +279,11 @@
       },      
 
       {
-         "technique":"TAKE A",
-         "granularity":"1 MIN BREAK",
-         "texttype":"THEN PRESS",
+         "technique":"TAKE A 1 MIN",
+         "granularity":"BREAK AND THEN",
+         "texttype":"PRESS NEXT TO CONTINUE",
          "data_file":"data/texts.json",
-         "stimuli":"NEXT TASK TO CONTINUE"
+         "stimuli":"THE TECHNIQUE YOU USE WILL CHANGE AFTER THE BREAK"
       }
    ]
 }
