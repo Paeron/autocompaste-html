@@ -122,7 +122,7 @@
          "granularity":"paragraph",
          "texttype":"Normal",
          "data_file":"data/texts.json",
-         "stimuli":"What is anode? The positive electrode or terminal of a device. The'P' material of a diode."
+         "stimuli":"What is anode? The positive electrode or terminal of a device. The 'P' material of a diode."
       },
 
       {
